@@ -1,0 +1,49 @@
+Table users
+- Id
+- Name
+- Email
+- Password
+- Address
+- Phone
+
+Table products
+- Id
+- Name
+- Slug
+- Description
+- Image
+- Qty
+- Price
+
+Table categories
+- Id
+- Name
+- Slug
+
+Table category_product
+- category_id
+- product_id
+
+Table cart ??? session
+
+Table orders
+- Id
+- user_id
+- user_name
+- user_phone
+- user_address
+- courier
+- Shipping_cost
+- total
+
+Table order_details
+- Id
+- Order_id
+- product_id
+- Qty
+- Price
+- Subtotal
+
+--- Role Permision / Authorization --- (Package laravel-Permision)
+Table Roles
+Table Permision
