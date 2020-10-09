@@ -106,6 +106,10 @@ class Checkout extends Component
                     'subtotal' => $item['sub_total']
                 ]);
             });
+
+            Cart::clear();
+            return redirect()->route('payment.index', $order);
+
         });        
     }
 }

@@ -32,6 +32,7 @@ Route::livewire('/', 'home')->name('index');
 Route::livewire('/product/{product:slug}', 'product-detail')->name('product.detail');
 Route::livewire('/cart', 'cart-index')->name('cart.index');
 Route::livewire('/checkout', 'checkout')->name('checkout.index');
+Route::livewire('/payment/{order}', 'payment')->name('payment.index');
 
 
 
